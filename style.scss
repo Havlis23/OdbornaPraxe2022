@@ -1,0 +1,392 @@
+$textcolor: rgb(0, 0, 0);
+$bodycolor: rgb(255, 255, 255);
+$backgroundcolor: rgb(42, 56, 132);
+$butcolor: rgb(193, 150, 42);
+
+body
+{
+    font-family: "Montserrat", sans-serif;
+    color: $textcolor;
+    background-color: $bodycolor;
+    display: flex;
+}
+
+.textikec
+{
+    float: none;
+}
+.h4
+{
+    width: 30%;
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+}
+.textik
+{
+    padding: 10px;
+}
+.logo
+{
+    width: 120px; 
+    height: 35px;
+    display: flex;
+    
+}
+.tecka
+{
+    margin-right: 10px;
+}
+.telo
+{
+    margin: 100px;
+    height: 776px;
+}
+.containertop
+{
+    margin-left: 500px;
+    display: flex;
+}
+.text
+{
+    color: $backgroundcolor;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;   
+}
+h2
+{
+    font-size: 44px;
+}
+h6
+{
+    margin: 10px;
+    clear: none;
+}
+.text4
+{
+    font-size: 16px;
+    color: #6C757D;
+}
+.title
+{
+    font-size: 30px;
+    font-family: "Montserrat", sans-serif;
+}
+.widget
+{
+    
+    width: 500px;
+    display: inline-block;
+    margin-left: 400px;
+    padding: 10px;
+    
+    
+}
+.text1
+{
+    text-align: center;
+}
+.widgettext4
+{
+    float: left;
+   width: 500px;
+    
+}
+.textbody
+{
+    font-size: 18px;
+    text-align: center;
+}
+h5
+{
+    font-size: 22px;
+    text-align: center;
+}
+h3
+{
+    font-size: 36px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+.container14
+{
+    font-family: "Montserrat", sans-serif;
+    color: $bodycolor;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+.container15
+{
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    color: #6C757D;
+}
+.container16
+{
+    color: #6C757D;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+}
+.nadpis
+{
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+.widget-text
+{
+    
+    font-family: "Montserrat", sans-serif;
+    color: black;
+    font-weight: bold;
+    font-size: 56px;
+}
+.widget-text2
+{
+    font-family: "Montserrat", sans-serif;
+    color: black;
+    font-weight: lighter;
+    font-size: 20px;
+}
+.registrace
+{
+    background-color: $backgroundcolor;
+    color: $bodycolor;
+    width: 200px;
+    height: 50px;
+    border-radius: 25px;
+}
+.buttop
+{
+    margin-left: 950px;
+    margin-bottom: 10px;
+    background-color: $butcolor;
+    color:#ffffff;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    border-radius: 25px;
+}
+.funkce
+{
+    background-color: $butcolor;
+    color:#ffffff;
+    width: 200px;
+    height: 50px;
+    border-radius: 25px;
+}
+.widget2
+{
+    border: 1px solid black;
+    width: auto;
+    height: auto;
+    display: inline-block;
+    margin-right: 400px;
+}
+label
+{
+    font-size:17px;
+    padding: 10px;
+    margin: 10px;
+    color: #6C757D;
+}
+
+.widget3
+{   
+
+    height: 420px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1
+{
+    font-size: 56px;
+}
+.logo2
+{
+    width: 400px;
+    height: 85px;
+}
+
+input[type=text] 
+{
+    padding-top: 50px;
+    width: 300px;
+    border: none;
+    border-bottom: 2px solid rgb(16, 16, 16);
+}
+
+
+.widgettext
+{
+    border: 1px solid black;
+    width: auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+}
+.container2
+{
+    
+    text-align: center;
+    height: 420px;
+    width: 1920px;
+}
+.imglogo
+{
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    margin: 50px;
+}
+.konec
+{
+    background-color: #F2F2F2;
+}
+.sekce
+{
+    background-color: $backgroundcolor;
+    color: #ffffff;
+    
+}
+.container3
+{
+    text-align: center;
+    background-color: $backgroundcolor;
+    color: #ffffff;
+    line-height: 0.6cm;
+    font-family: "Roboto Slab";
+    height: 460px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container4
+{
+    height: 990px;
+    margin-top: 20px;
+}
+.container5
+{
+    height: 1200px;
+}
+.container6
+{
+    height: 400px;
+}
+.container7
+{
+    text-align: center;
+}
+.container8
+{
+    text-align: center;
+}
+.container9
+{
+    text-align: center;
+}
+.cislo
+{
+    width: 10%;
+    font-family: "Montserrat", sans-serif;
+    color: $backgroundcolor;
+    font-size: 48px;
+    float: left;
+}
+.container10
+{
+    width: 740px;
+    display:flex;
+    flex-direction: column;
+    margin-left: 1000px;
+    width: 560px;
+    height: auto;
+   
+}
+.container11
+{
+    width: 370px;
+    height: 800px;
+    float: left;
+    margin-left: 400px;
+}
+.container12
+{
+    width: 800px;
+    height: 500px;
+}
+
+.container13
+{
+    float: left;
+}
+.pole
+{
+    border-bottom: 1px solid $backgroundcolor;
+    padding-bottom: 10px;
+    padding-top: 20px;
+    height: 120px;
+}
+
+#form {
+
+    width: 27%;
+    margin-left: 700px;
+    margin-top: 40px;
+    box-shadow: 10px -10px 8px -10px #6C757D;
+    border: 1px solid black;
+    border-radius: 4px;
+    font-size: 16px;
+    height: 860px;
+    padding: 10px;
+}
+
+#form button {
+    padding: 10px;
+    margin-top: 10px;
+    width: 100%;
+    color: white;
+    background-color: $backgroundcolor;
+    border: none;
+    border-radius: 4px;
+}
+
+.input-control {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-control input 
+{
+    border: 2px solid #d1d1d1;
+	border-radius: 4px;
+	display: block;
+	font-size: 12px;
+	padding: 10px;
+	width: 100%;
+}
+
+.input-control input:focus {
+    outline: 0;
+}
+
+.input-control.success input {
+    border-color: #09c372;
+}
+
+.input-control.error input {
+    border-color: #ff3860;
+}
+
+.input-control .error {
+    color: #ff3860;
+    font-size: 9px;
+    height: 13px;
+}
