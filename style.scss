@@ -36,7 +36,7 @@ body
 {
     margin-right: 10px;
 }
-.telo
+.content
 {
     margin: 100px;
     height: 776px;
@@ -46,7 +46,7 @@ body
     margin-left: 500px;
     display: flex;
 }
-.text
+.text_background_bold
 {
     color: $backgroundcolor;
     font-family: "Montserrat", sans-serif;
@@ -85,7 +85,7 @@ h6
 {
     text-align: center;
 }
-.widgettext4
+.widget_populated
 {
     float: left;
    width: 500px;
@@ -116,20 +116,21 @@ h3
     line-height: 1.6;
     margin-bottom: 10px;
 }
-.container15
+.container_text_populated
 {
     font-family: "Montserrat", sans-serif;
     font-size: 18px;
     color: #6C757D;
 }
-.container16
+.widget_right_populated
 {
     color: #6C757D;
     font-family: "Montserrat", sans-serif;
     font-size: 16px;
     line-height: 1.6;
+   
 }
-.nadpis
+.title_black_bold
 {
     font-family: "Montserrat", sans-serif;
     font-weight: bold;
@@ -231,6 +232,10 @@ input[type=text]
     align-items: center;
     float: left;
 }
+.container_text_center
+{
+    text-align: center;
+}
 .container2
 {
     
@@ -280,19 +285,11 @@ input[type=text]
 {
     height: 400px;
 }
-.container7
+.container_text_center
 {
     text-align: center;
 }
-.container8
-{
-    text-align: center;
-}
-.container9
-{
-    text-align: center;
-}
-.cislo
+.number_left
 {
     width: 10%;
     font-family: "Montserrat", sans-serif;
@@ -300,7 +297,7 @@ input[type=text]
     font-size: 48px;
     float: left;
 }
-.container10
+.container_left_populated
 {
     width: 740px;
     display:flex;

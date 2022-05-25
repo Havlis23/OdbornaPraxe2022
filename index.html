@@ -12,7 +12,7 @@
 <body>
   
         <header class="hlavicka">
-            <div class="container">
+            <div class="container_text_center">
                 <nav class="containertop">
                     <img src="/images/LOGO.png" class="logo">
                     <button type="button" class="buttop"><span>Jak to funguje</span></button> 
@@ -20,10 +20,10 @@
             </div>         
        </header>
     
-    <div class="telo">
-        <div class="obsah">
+    <div class="content">
+        <div>
             <div class="widget">
-                <span class="text">
+                <span class="text_background_bold">
                     SPOLUPRÁCE PRO FINANČNÍ PORADCE
                 </span>
                 <div class="widget-text">
@@ -59,7 +59,7 @@
         </h2>
     </div>
     <section class="widget3">
-        <div class="widgettext4">
+        <div class="widget_populated">
             <h5 class="text1">
                 Zbavíme jich dluhů
             </h5>
@@ -69,7 +69,7 @@
                 zbylé peníze dostane klient.
             </div>
         </div>
-        <div class="widgettext4">
+        <div class="widget_populated">
             <h5 class="text1">
                 Vyřešíme bydlení
             </h5>
@@ -79,7 +79,7 @@
                 v ní může i nadále bydlet.
             </div>
         </div>
-        <div class="widgettext4">
+        <div class="widget_populated">
             <h5>
                 Nemovitost zpět
             </h5>
@@ -93,7 +93,7 @@
     </section>
    </div>
    <section  class="container3">
-    <div class="container17">
+    <div>
         <h3>
             Obchodujeme neobchodovatelné
         </h3>
@@ -114,11 +114,11 @@
    <section class="container4">
        <div class="container11">
            <div>      
-                <div class="nadpis">
+                <div class="title_black_bold">
                     Jak funguje <br>
                     spolupráce
                 </div>
-               <span class="container15">
+               <span class="container_text_populated">
                 Přečtěte si jaký je běžný postup spolupráce s nami <br>
                </span>
             </div>
@@ -130,74 +130,74 @@
        </div>
        <div class="tabulka">
            <div class="container10">
-               <div class="cislo">
+               <div class="number_left">
                    <span>01</span>
                </div>
                
-               <div class="container13">
+               <div class="container_left_populated">
                 <h4>
                     Zaregistrujte se
                </h4>
-               <span class="container16">
+               <span class="widget_right_populated">
                 Vyplňte registrační formulář na této stránce a obratem vám pošleme <br>
                 do emailu potvrzení a unikátní odkaz na formulář pro klienty.
                </span>
                </div>
            </div>
            <div class="container10">
-            <div class="cislo">
+            <div class="number_left">
                 <span>02</span>
             </div>
             
-            <div class="container13">
+            <div class="container_left_populated">
              <h4>
                 Vyplníte formulář
             </h4>
-            <span class="container16">
+            <span class="widget_right_populated">
              S klientem vyplníte formulář, který jste obdrželi do emailu po <br>
              registraci.
             </span>
             </div>
         </div>
         <div class="container10">
-            <div class="cislo">
+            <div class="number_left">
                 <span>03</span>
             </div>
             
-            <div class="container13">
+            <div class="container_left_populated">
              <h4>
                 Vypracujeme dokumentaci
             </h4>
-            <span class="container16">
+            <span class="widget_right_populated">
                 Naceníme nemovitost a připravíme smlouvy k podpisu.
             </span>
             </div>
         </div>
         <div class="container10">
-            <div class="cislo">
+            <div class="number_left">
                 <span>04</span>
             </div>
             
-            <div class="container13">
+            <div class="container_left_populated">
              <h4>
                 Podpis smluv
             </h4>
-            <span class="container16">
+            <span class="widget_right_populated">
                 S klientem podepište smlouvy, pošlete nám je na centrálu a o vše <br>
                  ostatní se postaráme my.
             </span>
             </div>
         </div>
         <div class="container10">
-            <div class="cislo">
+            <div class="number_left">
                 <span>04</span>
             </div>
             
-            <div class="container13">
+            <div class="container_left_populated">
              <h4>
                 Vyplacení provize
             </h4>
-            <span class="container16">
+            <span class="widget_right_populated">
                 Po odkoupení nemovitosti vám vyplatíme provizi z kupní ceny.
             </span>
         </div>
@@ -205,7 +205,7 @@
        </div>
    </section>
     <section class="container5">
-        <div class="container9">
+        <div class="container_text_center">
             <div>
                 <h2>
                     Registrační formulář
@@ -219,7 +219,7 @@
         </div>
        
         <div>
-            <form  id="form" action="https://hook.eu1.make.com/skjhpwyxamnb1nvmgmprkrcvrgzi4xyb" method="get">
+            <form  id="form" action="https://hook.eu1.make.com/skjhpwyxamnb1nvmgmprkrcvrgzi4xyb" method="post">
                 <div class="pole">
                     <label for="fname">Jméno</label><br>
                     <input type="text" id="jmeno" name="jmeno"><br>
@@ -245,8 +245,9 @@
                     <input type="cislouctu" id="cislouctu" name="cislouctu">
                 </div>
                 <div>
-                    <button> submit</button>
+                    <button> <a href="thankyoupage.html">odeslat</a></button>
                 </div>
+                <scrip defer src="script.ts"></script>
             </form>
             </form>
         </div>
@@ -292,7 +293,7 @@
         </div>
     </section>
     <section class="container6">
-        <div class="container7">
+        <div class="container_text_center">
             <div>
                 <h2>
                     Máte dotaz?
@@ -312,7 +313,7 @@
         </div>
     </section>
     <section class="konec">
-        <div class="container8">
+        <div class="container_text_center">
             <div class="imglogo">
                 <img src="/images/jakbydletdoma-250x250-1.png">
             </div>
